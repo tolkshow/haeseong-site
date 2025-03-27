@@ -1,0 +1,16 @@
+{
+  "name": "haeseong-web",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "tailwindcss": "^3.3.2",
+    "@emailjs/nodejs": "^3.11.0"
+  }
+}
