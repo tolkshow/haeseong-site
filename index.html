@@ -15,6 +15,7 @@
     form { margin-top: 1rem; max-width: 500px; }
     label { display: block; margin-bottom: 0.5rem; font-weight: bold; }
     input, textarea { width: 100%; padding: 0.5rem; margin-bottom: 1rem; border: 1px solid #ccc; border-radius: 4px; }
+    iframe { width: 100%; height: 300px; border: none; margin-top: 1rem; }
   </style>
 </head>
 <body>
@@ -34,25 +35,35 @@
     <a class="button" href="tel:010-7537-5154">전화 문의하기</a>
   </section>
 
+  <section id="contact">
+    <h2>연락처 및 위치</h2>
+    <p><strong>주소:</strong> 충남 당진시 서부로 85-16<br>
+       <strong>전화:</strong> 010-7537-5154<br>
+       <strong>카카오톡 채널:</strong> <a href="http://pf.kakao.com/_uxbQGn">바로가기</a><br>
+       <strong>블로그:</strong> <a href="https://blog.naver.com/tolkshow">https://blog.naver.com/tolkshow</a></p>
+    <iframe src="https://www.google.com/maps?q=충남+당진시+서부로+85-16&output=embed"></iframe>
+  </section>
+
   <section id="apply">
-  <h2>구직 신청</h2>
-  <form action="https://formsubmit.co/tolkshow57@gmail.com" method="POST">
-    <label for="name">이름</label>
-    <input type="text" id="name" name="name" required>
+    <h2>구직 신청</h2>
+    <form action="https://formsubmit.co/tolkshow@naver.com" method="POST">
+      <label for="name">이름</label>
+      <input type="text" id="name" name="name" required>
 
-    <label for="phone">연락처</label>
-    <input type="tel" id="phone" name="phone" required>
+      <label for="phone">연락처</label>
+      <input type="tel" id="phone" name="phone" required>
 
-    <label for="job">희망 직종</label>
-    <input type="text" id="job" name="job" placeholder="예: 철근조공, 형틀기공 등" required>
+      <label for="job">희망 직종</label>
+      <input type="text" id="job" name="job" placeholder="예: 철근조공, 형틀기공 등" required>
 
-    <label for="message">기타 문의사항</label>
-    <textarea id="message" name="message" rows="4"></textarea>
+      <label for="message">기타 문의사항</label>
+      <textarea id="message" name="message" rows="4"></textarea>
 
-    <button class="button" type="submit">지원하기</button>
-  </form>
-  <p style="font-size: 0.9rem; color: gray;">* 위 신청서 작성 시 이메일로 정보가 전송됩니다.</p>
-</section>
+      <button class="button" type="submit">지원하기</button>
+    </form>
+    <p style="font-size: 0.9rem; color: gray;">* 위 신청서 작성 시 이메일로 정보가 전송됩니다.</p>
+  </section>
+
   <footer>
     &copy; 2025 해성인력. All rights reserved.
   </footer>
